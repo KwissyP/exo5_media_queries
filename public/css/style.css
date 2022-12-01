@@ -1,0 +1,53 @@
+@media (min-width:1024px) {
+    #un{
+        width: 33%;
+        padding-bottom: 25%;
+        background-color: red;
+    }
+    #deux{
+        width: 33%;
+        padding-bottom: 25%;
+        background-color: green;
+    }
+    #trois{
+        padding-bottom: 25%;
+        width: 33%;
+        background-color: orange;
+    }
+}
+
+@media (min-width:600px) and (max-width:1024px) {
+    #un{
+        width: 50%;
+        padding-bottom: 40%;
+        background-color: red;
+    }
+    #deux{
+        width: 50%;
+        padding-bottom: 40%;
+        background-color: green;
+    }
+    #trois{
+        padding-bottom: 40%;
+        width: 50%;
+        background-color: orange;
+    }
+}
+
+@media (min-width:320px) and (max-width:600px) {
+    #un{
+        width: 100%;
+        padding-bottom:75%;
+        background-color: red;
+    }
+    #deux{
+        width: 100%;
+        padding-bottom: 75%;
+        background-color: green;
+    }
+    #trois{
+        padding-bottom: 75%;
+        width: 100%;
+        background-color: orange;
+    }
+}
